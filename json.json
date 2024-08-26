@@ -1,0 +1,62 @@
+[
+    {
+        "nombre": "Juan Pérez",
+        "cedula": "123456789",
+        "fechaNacimiento": "1990-01-15",
+        "estatura": 1.75
+    },
+    {
+        "nombre": "María Gómez",
+        "cedula": "987654321",
+        "fechaNacimiento": "1992-05-22",
+        "estatura": 1.68
+    },
+    {
+        "nombre": "Carlos Martínez",
+        "cedula": "111223344",
+        "fechaNacimiento": "1985-03-10",
+        "estatura": 1.80
+    },
+    {
+        "nombre": "Laura Sánchez",
+        "cedula": "555666777",
+        "fechaNacimiento": "1998-07-19",
+        "estatura": 1.65
+    },
+    {
+        "nombre": "Pedro López",
+        "cedula": "222333444",
+        "fechaNacimiento": "1978-09-30",
+        "estatura": 1.82
+    },
+    {
+        "nombre": "Ana Torres",
+        "cedula": "333444555",
+        "fechaNacimiento": "1989-11-25",
+        "estatura": 1.70
+    },
+    {
+        "nombre": "Luis Hernández",
+        "cedula": "444555666",
+        "fechaNacimiento": "1995-02-05",
+        "estatura": 1.78
+    },
+    {
+        "nombre": "Sofía Ruiz",
+        "cedula": "666777888",
+        "fechaNacimiento": "2000-12-12",
+        "estatura": 1.60
+    },
+    {
+        "nombre": "Jorge Ramírez",
+        "cedula": "777888999",
+        "fechaNacimiento": "1980-06-18",
+        "estatura": 1.85
+    },
+    {
+        "nombre": "Gabriela Díaz",
+        "cedula": "888999000",
+        "fechaNacimiento": "1993-08-07",
+        "estatura": 1.68
+    }
+]
