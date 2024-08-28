@@ -1,6 +1,6 @@
 // Función flecha que carga el archivo JSON, filtra y muestra solo las posiciones pares
 const cargarYMostrarPares = () => {
-    fetch('json.json') // Cargar el archivo JSON
+    fetch('https://raw.githubusercontent.com/juanmontes55/Sistemas-distribuidos/main/json.json') // Cargar el archivo JSON
         .then(response => response.json()) // Convertir la respuesta en un objeto JSON
         .then(data => {
             const lista = document.getElementById("listaPersonas"); // Seleccionar el elemento del DOM
