@@ -1,5 +1,33 @@
+// Función para descargar el archivo JSON desde GitHub y guardarlo localmente
+const descargarYGuardarJson = () => {
+    // URL del archivo JSON en GitHub
+    const url = 'https://raw.githubusercontent.com/juanmontes55/Sistemas-distribuidos/main/json.json';
+
+    // Realizar una solicitud fetch para obtener el archivo JSON
+    fetch(url)
+        .then(response => response.json()) // Convertir la respuesta en un objeto JSON
+        .then(data => {
+            // Convertir el objeto JSON en una cadena de texto
+            const dataStr = JSON.stringify(data, null, 2);
+            const blob = new Blob([dataStr], { type: 'application/json' });
+
+            // Crear un enlace para descargar el archivo
+            const a = document.createElement('a');
+            a.href = URL.createObjectURL(blob);
+            a.download = 'personas.json';
+
+            // Adjuntar el enlace al documento, simular un clic y luego remover el enlace
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+        })
+        .catch(error => console.error('Error al descargar el archivo JSON:', error)); // Manejar errores
+};
+
 // Función flecha que carga el archivo JSON, filtra y muestra solo las posiciones pares
 const cargarYMostrarPares = () => {
+    // Descarga el archivo JSON y lo guarda en la máquina local
+    descargarYGuardarJson();
     fetch('https://raw.githubusercontent.com/juanmontes55/Sistemas-distribuidos/main/json.json') // Cargar el archivo JSON
         .then(response => response.json()) // Convertir la respuesta en un objeto JSON
         .then(data => {
