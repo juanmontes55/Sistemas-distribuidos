@@ -1,26 +1,32 @@
 [
   {
       "email": "edalhernandez@uniboyaca.edu.co",
+      "nombre": "Edwin",
       "code": ""
   },
   {
       "email": "edwinhernandez9870@gmail.com",
+      "nombre": "Edwin",
       "code": ""
   },
   {
       "email": "cesmartinez@uniboyaca.edu.co",
+      "nombre": "Cesar",
       "code": ""
   },
   {
       "email": "jsmontes@uniboyaca.edu.co",
+      "nombre": "Juan",
       "code": ""
   },
   {
       "email": "dfirreno@uniboyaca.edu.co",
+      "nombre": "Diego",
       "code": ""
   },
   {
       "email": "chbohorquez@uniboyaca.edu.co",
+      "nombre": "Camilo",
       "code": ""
   }
 ]
